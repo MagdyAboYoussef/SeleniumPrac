@@ -1,4 +1,4 @@
-# SeleniumPrac
+# SeleniumPractice project
 
 
 This project is done as a practice by me using POM design pattern and applying selenium/cucumber. It has 7 test cases and uses Edge driver.
