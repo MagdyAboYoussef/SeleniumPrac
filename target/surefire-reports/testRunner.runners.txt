@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.runners
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 217.511 s <<< FAILURE! - in testRunner.runners
+testRunner.runners.runScenario["user could search using product name", "F04_hover | User could search using product name or serial"](5)  Time elapsed: 8.494 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at stepDefs.D04_search.should_appear_in_the_search_results(D04_search.java:24)
+	at ✽."book" should appear in the search results(file:///F:/TestingPractice/SeleniumPrac/src/main/resources/features/F04_search.feature:6)
+
+testRunner.runners.runScenario["F06_externalLinks | user is redirected to facebook/twitter/rss/youtube links", "F06_wishList | Clicking external link opens in a new tab and matches href"](14)  Time elapsed: 11.157 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at stepDefs.D06_externalLinks.link_opens_in_new_tab(D06_externalLinks.java:23)
+	at ✽.link opens in a new tab(file:///F:/TestingPractice/SeleniumPrac/src/main/resources/features/F06_externalLinks.feature:6)
+

@@ -1,0 +1,2 @@
+file:src/main/resources/features/F04_search.feature:10
+file:src/main/resources/features/F06_externalLinks.feature:12
